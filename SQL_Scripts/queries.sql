@@ -17,7 +17,7 @@ delete from Tickets where UserID=1;
 
 --Retrieve all payments made within a specific date range
 select * from Payments
-where PaymentDate between ’2025-03-02’ and ’2025-03-03’;
+where PaymentDate between '2025-03-02' and '2025-03-03';
  
 --Find the most frequently booked event
 select EventName as Event,count(EventName) as Bookings
